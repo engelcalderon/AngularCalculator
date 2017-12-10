@@ -1,0 +1,22 @@
+.nav-menu {
+    background: gray;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}

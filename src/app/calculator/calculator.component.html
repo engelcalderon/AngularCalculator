@@ -1,0 +1,28 @@
+<div class="main-container">
+    <div class="calculator-container">
+      <div class="screen-container">
+        <h1 id="screen-number">{{(currentNumber != "") ? currentNumber : result}}</h1>
+      </div>
+      <div class="number-buttons-container">
+        <button (click)="clean()" class="button button-clean">C</button>
+        <button (click)="cleanAll()" class="button button-all-clean">AC</button>
+        <button (click)="negativeButton()" class="button button-negative-positive">NP</button>
+        <button (click)="divOperation()" class="button button-operator">/</button>
+        <button (click)="onClickNumber(7)" class="button button-number">7</button>
+        <button (click)="onClickNumber(8)" class="button button-number">8</button>
+        <button (click)="onClickNumber(9)" class="button button-number">9</button>
+        <button (click)="multOperation()" class="button button-operator">*</button>
+        <button (click)="onClickNumber(4)" class="button button-number">4</button>
+        <button (click)="onClickNumber(5)" class="button button-number">5</button>
+        <button (click)="onClickNumber(6)" class="button button-number">6</button>
+        <button (click)="abstOperation()" class="button button-operator">-</button>
+        <button (click)="onClickNumber(1)" class="button button-number">1</button>
+        <button (click)="onClickNumber(2)" class="button button-number">2</button>
+        <button (click)="onClickNumber(3)" class="button button-number">3</button>
+        <button (click)="plusOperation()" class="button button-operator">+</button>
+        <button (click)="onClickNumber(0)" class="button button-number button-cero">0</button>
+        <button (click)="onClickNumber('.')" class="button button-number button-comma">.</button>
+        <button (click)="showResult()" class="button button-operator button-equal">=</button>
+      </div>
+    </div>
+  </div>

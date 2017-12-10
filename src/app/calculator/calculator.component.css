@@ -1,0 +1,55 @@
+a, span, h1 {
+    line-height: 0px;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    background: blue;
+}
+.calculator-container {
+    background: red;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+}
+
+.screen-container {
+    background: lightslategray;
+    padding: 5px;
+    text-align: right;
+    color: white;
+    font-family: "Arial";
+    font-size: 22px;
+}
+
+.number-buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 25%;
+    height: 50px;
+    border-color: gray;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.button:hover {
+    background: lightgray;
+}
+
+.button-cero {
+    width: 50%;
+}
+
+.button-number {
+    background: white;
+}
+
+.button-operator {
+    background: orange;
+    color: white;
+}
